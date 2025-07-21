@@ -1,5 +1,5 @@
 # create a list of 15 integer by getting whose values from the user
-# find the numbers of repetative values in a list
+# find the numbers of repetitive values in a list
 # show in dictionary form value as key and number of the repetitions as value
 numbers = []
 for i in range(15):
@@ -15,3 +15,5 @@ print("Repetitive values:")
 for key, value in repetitions.items():
     if value > 1:
         print(f"Value: {key}, Count: {value}")
+# End of the code
+
