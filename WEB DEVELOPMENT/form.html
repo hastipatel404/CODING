@@ -5,4 +5,143 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Form Page</title>
     </head>
+    <body>
+    <center>
+    <form action="/submit" method="post">
+        <table style="border-style: dashed; border:3px dashed #000000; background: linear-gradient(#00bfff, #ff68ca)">
+            <caption style="color: #213ab3;">
+                <h2><u>Student Registration Form<u></h2>
+            </caption>
+                 <tr>
+                <td>
+                        <label for="firstname">First Name</label>
+                </td>
+                <td>
+                        <input type="text" id="firstname" name="firstname" required>
+                </td>
+            <tr>
+                <td>
+                        <label for="lastname">Last Name</label>
+                </td>
+                <td>
+                        <input type="text" id="lastname" name="lastname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <label for="email">Email ID</label>
+                </td>
+                <td>
+                        <input type="email" id="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mobileno">Mobile Number</label>
+                </td>
+                <td>
+                    <input type="text" id="mobileno" name="mobileno" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="gender_male" name="gender" value="male" required> Male
+                    <input type="radio" id="gender_female" name="gender" value="female" required> Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address" rows="10" cols="50" placeholder="Enter here" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" id="city" name="city" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">Pincode</label>
+                </td>
+                <td>
+                    <input type="text" id="pincode" name="pincode" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <input type="text" id="country" name="country" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">Hobbies</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Drawing">Drawing
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Singing">Singing
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Dancing">Dancing
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Sketching">Sketching
+                    <br>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="others">others
+                    <input type="text" id="hobbies_other" name="hobbies_other" placeholder="Ex- Teaching">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qualification">Qualification</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="qualification" name="qualification" value="10th" required>High School(10<sup>th</sup>)<br>
+                    <input type="checkbox" id="qualification" name="qualification" value="12th" required>Higher School(12<sup>th</sup>)<br>
+                    <input type="checkbox" id="qualification" name="qualification" value="Graduation" required>Graduation(Bachelors)<br>
+                    <input type="checkbox" id="qualification" name="qualification" value="Post-Graduation" required>Post-Graduation(Masters)<br>
+                    <input type="checkbox" id="qualification" name="qualification" value="PhD" required>PhD
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="courses">Courses Applies For</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="courses" name="courses" value="BCA" required>BCA(Bachelor of Computer Application)<br>
+                    <input type="checkbox" id="courses" name="courses" value="B.Com" required>B.Com(Bachelor of Commerce)<br>
+                    <input type="checkbox" id="courses" name="courses" value="B.Sc" required>B.Sc(Bachelor of Science)<br>
+                    <input type="checkbox" id="courses" name="courses" value="B.A" required>B.A(Bachelor of Arts)<br>
+                    <input type="checkbox" id="courses" name="courses" value="MCA" required>MCA(Master of Computer Application)<br>
+                    <input type="checkbox" id="courses" name="courses" value="M.Com" required>M.Com(Master of Commerce)<br>
+                    <input type="checkbox" id="courses" name="courses" value="M.Sc" required>M.Sc(Master of Science)<br>
+                    <input type="checkbox" id="courses" name="courses" value="M.A" required>M.A(Master of Arts)<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
 </html>
