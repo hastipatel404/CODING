@@ -7,9 +7,7 @@ employees = {
     "Priti": {"age": 19, "salary": 60000, "experience": 1},
     "Bhargi": {"age": 18, "salary": 90000, "experience": 2}
 }
-# Adding a new employee
 employees["Dhruvi"] = {"age": 32, "salary": 75000, "experience": 6}
-# Finding the employee with the highest salary and experience
 highest_paid_employee = None
 for employee, details in employees.items():
     if highest_paid_employee is None:
